@@ -1,0 +1,46 @@
+name: passport_stamp
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.0
+  dropdown_button2:
+  get:
+  flutter_svg:
+  intl:
+  auto_size_text:
+  scanguard:
+    path: ../../
+  http: ^0.13.6
+  fluttertoast: ^8.2.6
+  awesome_dialog: ^3.2.1
+  logger: ^2.4.0
+  onesignal_flutter: ^5.1.6
+  pdf: ^3.11.1
+  share_plus: ^7.1.0
+  path_provider: ^2.1.4
+  printing: ^5.12.0
+  responsive_framework: ^1.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/passport/
+    - assets/passport/stamp_background/
+    - assets/passport/travel_mode/
+    - assets/passport/base_stamp/
